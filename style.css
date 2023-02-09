@@ -58,6 +58,10 @@ header{
     margin-left: 50px;
     width: 500px;
 }
+.description-header{
+    font-size: 40px;
+    font-weight: 700;
+}
 .para-description{
     margin-top: 20px;
 }
@@ -66,4 +70,30 @@ header{
 }
 .description{
     color: #444343;
+}
+/* Plan Section */
+.plan-section{
+    margin-top: 100px;
+}
+.plan-header{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.skills-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+.skill{
+    text-align: center;
+}
+.skill-header{
+    font-size: 25px;
+}
+.skill-text{
+    color: #737272;
+    font-size: 20px;
 }
