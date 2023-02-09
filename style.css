@@ -45,3 +45,25 @@ header{
     font-weight: 600;
     text-align: center;
 }
+/* Fail Section */
+.fail-section{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.img-section{
+    margin-left: 200px;
+}
+.description-section{
+    margin-left: 50px;
+    width: 500px;
+}
+.para-description{
+    margin-top: 20px;
+}
+.check-section{
+    margin-top: 15px;
+}
+.description{
+    color: #444343;
+}
