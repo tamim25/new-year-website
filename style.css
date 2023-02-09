@@ -42,7 +42,7 @@ header{
 }
 .btn-text{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 }
 /* Fail Section */
@@ -74,6 +74,7 @@ header{
 /* Plan Section */
 .plan-section{
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 .plan-header{
     font-size: 40px;
@@ -96,4 +97,28 @@ header{
 .skill-text{
     color: #737272;
     font-size: 20px;
+}
+/* Call Section */
+.call-section{
+    background-image: linear-gradient(to right, rgba(0,95,172,100),rgba(0,95,172,0)), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+}
+.call{
+    padding: 60px 65px;
+}
+.call-text{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.btn-call{
+    padding: 15px 20px;
+    color: #005FAC;
+    border: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
 }
