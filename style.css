@@ -122,3 +122,93 @@ header{
     border-radius: 5px;
     margin-top: 20px;
 }
+/* Consistent Section */
+.consistent{
+    margin-top: 150px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.consistent-img img{
+    width: 700px;
+    height: 700px;
+}  
+.consistent-info{
+    width: 500px;
+}
+.consistent-para{
+    font-size: 16px;
+    color: #444343;
+    margin-top: 25px;
+    line-height: 26px;
+}
+.btn-consistent{
+    padding: 15px 20px;
+    background: #005FAC;
+    color: #FFFFFF;
+    border: #005FAC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 30px;
+}
+/* Footer Section */
+footer{
+    color: #FFFFFF;
+    background: #000000;
+    height: 600px;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    margin: 0px 140px;
+    padding: 100px;
+    justify-content: space-between;
+}
+.future{
+    width: 30%;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+footer p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+}
+.social-icon{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.sub-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.form{
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form input{
+    width: 100%;
+    background: transparent;
+    border:none;
+}
+.btn-subscribe{
+    padding: 15px 20px;
+    background: #005FAC;
+    color: #FFFFFF;
+    border: #005FAC;
+    border-radius: 5px;
+    margin-top: 15px;
+}
